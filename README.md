@@ -11,6 +11,7 @@ numeroSecreto: Almacena el número aleatorio generado por la función generarNum
 numeroSorteado: Se declara pero no se utiliza en este código, por lo que podría ser eliminada si no tiene uso futuro.
 
 Funciones:
+
 asignarTextos(elemento, texto): 
 Recibe como parámetros un selector de elemento HTML y el texto que se le quiere asignar.
 Utiliza querySelector para seleccionar el elemento en el DOM y luego cambia su contenido con innerHTML.
