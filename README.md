@@ -1,5 +1,41 @@
 # Numero Misterioso | Game
+
 Implementando un simple juego de "Adivina el número" en JavaScript, donde el usuario intenta adivinar un número aleatorio generado entre 1 y 10.
+
+Manual de Usuario: Adivina el Número
+
+Descripción:
+
+"Adivina el Número" es un sencillo juego donde el objetivo es adivinar un número secreto generado aleatoriamente entre 1 y 10. El juego proporciona pistas para guiar al jugador hasta que acierte.
+
+Instrucciones para jugar:
+Inicio del Juego:
+
+En la parte superior de la página verás un título que dice: "¡Juego: adivina el número!" y un mensaje que te invita a "Ingresa un número del 1 al 10".
+Ingresar un Número:
+
+Usa el campo de texto debajo del mensaje para ingresar un número entre 1 y 10.
+Enviar tu Número:
+
+Después de ingresar tu número, presiona el botón Enviar.
+Recibir Retroalimentación:
+
+Si el número ingresado es correcto, el juego te mostrará un mensaje felicitándote y diciéndote cuántos intentos realizaste.
+Si el número es incorrecto, el juego te indicará si debes probar con un número mayor o menor.
+Reiniciar el Juego:
+
+Una vez que aciertes el número, el botón de Reiniciar estará disponible. Al hacer clic en él, se generará un nuevo número secreto y podrás comenzar nuevamente.
+Número de Intentos:
+
+El juego lleva un registro de los intentos que has realizado y te lo mostrará cada vez que aciertes el número.
+Funcionalidades del Juego:
+Generación Aleatoria de Número: Cada vez que inicias un nuevo juego, se genera un número al azar entre 1 y 10.
+Pistas: Si fallas, el juego te indicará si el número secreto es mayor o menor al que ingresaste.
+Reinicio Automático: Tras adivinar el número, el juego te permite reiniciar y volver a jugar con un nuevo número.
+Controles:
+Campo de entrada: Donde ingresas el número que crees que es el correcto.
+Botón "Enviar": Envia tu número para verificar si es correcto.
+Botón "Reiniciar": Reinicia el juego y genera un nuevo número aleatorio.
 _________________________________________________________________
 
 Documentación del código en relación a sus funciones y variables:
