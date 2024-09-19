@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numero Misterioso | Game</title>
+    <link rel="stylesheet" href="desing/styles.css">
+    <link rel="icon" type="image/png" sizes="" href="asset/favicon-96x96.png">
+</head>
+
+<body>
+    <main class="contenedor">
+        <section class="contenedor__itemUno">
+            <div class="contenedor__itemUnoHijo">
+                <div class="contenedor__Textos">
+                    <h1></h1>
+                    <p></p>
+                </div>
+                <div class="contenedor__inputs">
+                    <input class="container__input" id="valorUsuario" type="number" min="1" max="10">
+                </div>
+                <div class="contenedor__botones">
+                    <button onclick="send();" class="container__boton">enviar</button>
+                    <button onclick="restartGame()" class="container__boton" id="reiniciar" disabled>!Again!</button>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor__itemDos">
+            <img src="asset/ichigo.png" alt="imagen figura anime">
+        </section>
+    </main>
+    <script src="app/controlador.js"></script>
+</body>
+
+</html>
