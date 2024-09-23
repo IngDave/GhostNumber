@@ -29,7 +29,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0rem 2rem;
-    height: 98dvh;
+    height: 96dvh;
     width: auto;
 }
 
@@ -132,6 +132,24 @@ body {
     height: 300px;
 }
 
+footer{
+    display:flex;
+    background-color: #f8ee3483;
+    font-family: var(--font2);
+    color: black;
+    padding: .5em;
+    border-radius: 12px;  
+}
+
+footer a{
+    text-decoration: none;
+    background-color: black;
+    color:  #f8ee34d8;
+    border-radius: 5px;
+    padding: .3em;
+    font-size: 1.1em;
+}
+
 @media (width <=1020px) {
 
     .contenedor {
@@ -168,7 +186,8 @@ body {
     }
 
     .contenedor__itemUnoHijo h1 {
-        padding: 1em 0em;
+        padding-top: .8em;
+        padding-bottom: .3em; 
         font-size: 4em;
     }
 
@@ -179,7 +198,7 @@ body {
 
     .contenedor__itemUnoHijo .container__input {
         font-size: 2em;
-        padding: 2em .5em;
+        padding: 1em .5em;
         width: 40dvh;
         margin-top: 1em;
     }
@@ -204,7 +223,7 @@ body {
         flex-direction: column-reverse;
         justify-content: start;
         width: auto;
-        height: 80dvh;
+        height: 96dvh;
     }
 
     .contenedor__itemUno {
