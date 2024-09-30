@@ -1,6 +1,6 @@
-# Numero Misterioso | Game
+# EncryptMaster The Game
 
-Implementando un simple juego de "Adivina el número" en JavaScript, donde el usuario intenta adivinar un número aleatorio generado entre 1 y 10.
+Implementando un simple juego en JavaScript, donde el usuario intenta adivinar un número aleatorio generado entre 1 y 10.
 
 Manual de Usuario: Adivina el Número
 
