@@ -1,4 +1,4 @@
-# GhostNumber The Game
+# GhostNumber | The Game
 
 Implementando un simple juego en JavaScript, donde el usuario intenta adivinar un número aleatorio generado entre 1 y 10.
 
