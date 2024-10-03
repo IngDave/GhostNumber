@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
 
 :root {
+    --bg: linear-gradient(90deg, rgb(3, 14, 36) 2%, #120076 70%, #011876 90%);
     --font1: "New Tegomin", serif;
     --font2: 'Franklin Gothic Medium', sans-serif;
     --font3: "Nanum Brush Script", cursive;
@@ -19,7 +20,10 @@ html {
 }
 
 body {
-    background: linear-gradient(90deg, rgba(102, 44, 17, 1) 0%, rgba(253, 136, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    background: var(--bg)
+}
+.ocultar{
+    display: none;
 }
 
 .contenedor {
