@@ -281,10 +281,15 @@ footer a:hover {
     transition: all 0.5s ease;
 }
 
-@media (width <=1020px) {
+@media (width <=1024px) {
 
     .contenedor__itemUnoHijo img {
-        width: 75dvh;
+        width: 37dvh;
+    }
+
+    contenedor__itemDos {
+        height: 90dvh;
+        width: 63%;
     }
 
     .contenedor__itemDos span {
@@ -298,7 +303,7 @@ footer a:hover {
 
 }
 
-@media (width <=768px) {
+@media (width <=1024px) {
 
 
     .contenedor__uno {
@@ -316,12 +321,12 @@ footer a:hover {
 
     .contenedor__itemDos img {
         height: 100px;
-        padding: 1rem 1rem;
+        padding: .7rem 1rem;
     }
 
     .contenedor__itemDos span {
         font-size: 1.5rem;
-        margin-top: 1rem;
+        margin-top: -2rem;
     }
 
     .contenedor__itemDos p {
@@ -335,16 +340,17 @@ footer a:hover {
     .button3 {
         width: 5.7em;
         height: 3.7em;
-        
+
     }
+
     .button4 {
         width: 5.7em;
         height: 3.7em;
-        
+
     }
 
     .container__botones {
-        
+
         margin-top: 0rem;
     }
 
