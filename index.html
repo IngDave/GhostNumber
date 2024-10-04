@@ -4,43 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Numero Misterioso | Game</title>
+    <title>GhostNumber | The Game</title>
     <link rel="stylesheet" href="desing/styles.css">
-    <link rel="icon" type="image/png" sizes="" href="asset/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="" href="asset/logoGhostNumber.png">
 </head>
 
 <body>
-    <nav id="preloader class=" preloader">
-        <img src="asset/bleach.gif" alt="gif animated">
+    <nav id="preloader" class="preloader">
+        <img class="imagen__preloader" src="asset/bleach.gif" alt="gif animated">
     </nav>
-    <main class="contenedor ocultar">
-        <section class="contenedor__itemUno">
-            <div class="contenedor__itemUnoHijo">
-                <div class="contenedor__Textos">
-                    <h1></h1>
-                    <p></p>
-                </div>
-                <div class="contenedor__inputs">
-                    <input class="container__input" id="valorUsuario" type="number" min="1" max="10">
-                </div>
-                <div class="contenedor__botones">
-                    <button onclick="send();" class="container__boton">adivinar</button>
-                    <button onclick="restartGame()" class="container__boton" id="reiniciar" disabled>try again</button>
-                </div>
-            </div>
-        </section>
-        <section class="contenedor__itemDos">
+    <main id="contenedor" class="ocultar">
+        <div class="contenedor__uno">
+            <section class="contenedor__itemUno">
+                <div class="contenedor__itemUnoHijo">
+                    <div class="contenedor__Textos">
+                        <img src="asset/logoNameGhostNumber.png" alt="logoGhostNumber">
+                        <p></p>
+                    </div>
+                    <div class="contenedor__inputs">
+                        <input class="container__input" id="valorUsuario" type="number" min="1" max="10">
+                    </div>
+                    <!--From Uiverse.io by Praashoo7 */-->
+                    <div class="container__botones">
+                        <div class="buttons">
+                            <div class="button_pair">
+                                <div class="btn">
 
-            <span>Modo de juego:</span>
-            <p>Es un sencillo juego donde el objetivo es adivinar un numero secreto generado aleatoriamente entre uno y
-                diez, el juego te proporcionara pistas para guiarte de manera divertida.</p>
-        </section>
-
+                                    <div class="button_pair">
+                                        <div class="btn">
+                                            <button onclick="send();" class="button3"> <span
+                                                    class="button_text3">SEND</span></button>
+                                        </div>
+                                        <div class="btn">
+                                            <button onclick="restartGame()" class="button4" id="reiniciar"
+                                                disabled><span class="button_text4">RE-PLAY</span> </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contenedor__itemDos">
+                <div class="contenedor__img__logoGhostNumber">
+                    <img class="imagen__itemDos" src="asset/logoGhostNumber.png" alt="logoGhostNumber">
+                </div>
+                <div class="contenedor__modoJuego">
+                    <span>Modo de juego:</span>
+                    <p>Es un sencillo juego donde el objetivo es adivinar un numero secreto generado aleatoriamente
+                        entre
+                        uno y diez, el juego te proporcionara pistas para guiarte de manera divertida.</p>
+                    <br>
+                    <p class="contenedor__uno__alerta__parrafo__Uno">"RE-PLAY" solo se activará cuando logrés adivinar
+                        el numero secreto.</p>
+                </div>
+            </section>
+        </div>
         <footer>
             <span>Desarrollado por <a href="https://ingdave.github.io/Portafolio/">IngDave</a></span>
         </footer>
     </main>
+
 </body>
+
 <script src="app/controlador.js"></script>
 
 </html>

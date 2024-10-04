@@ -1,3 +1,18 @@
+//permite que se genere un loader de x tiempo
+let container = document.getElementById('contenedor');
+
+function ocultarPreloader(tiempo) {
+    setTimeout(function () {
+        document.getElementById('preloader').style.display = 'none';
+    }, tiempo);
+    setTimeout(() => {
+        container.classList.remove("ocultar");
+    }, tiempo);
+}
+ocultarPreloader(4100);
+
+
+
 //declaracion de variables
 let intentos = 1;
 let numeroSecreto = generarNumero();
@@ -8,13 +23,12 @@ let numeroSorteado = [];
 //etiquetas h1 y p en este caso.
 function asignarTextos(elemento, texto) {
     let title = document.querySelector(elemento);
-    title.innerHTML = texto; 
+    title.innerHTML = texto;
     return;
 }
 
 function declararMensajes() {
-    asignarTextos('h1', 'Numero Misterioso');
-    asignarTextos('p', 'digite un numero en el recuadro de abajo');
+    asignarTextos('p', 'Digite un numero en el recuadro de abajo');
 }
 declararMensajes();
 
