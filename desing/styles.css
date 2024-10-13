@@ -17,11 +17,12 @@
 
 html {
     font: optional;
-
+    
 }
 
 body {
     background: var(--bg);
+    height: 100dvh;
 }
 
 /*preloader*/
@@ -51,6 +52,7 @@ body {
     align-items: center;
     padding: 0rem 2rem;
     height: 94dvh;
+    box-sizing: border-box;
 }
 
 .contenedor__itemUno {
@@ -58,7 +60,8 @@ body {
     justify-content: center;
     align-items: center;
     width: 60%;
-    margin: 2rem
+    margin: 2rem;
+    box-sizing: border-box;
 }
 
 .contenedor__itemDos {
@@ -74,6 +77,7 @@ body {
     width: 40%;
     color: white;
     transition: transform 0.5s ease;
+    box-sizing: border-box;
 
 }
 
@@ -87,6 +91,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .contenedor__itemUnoHijo {
@@ -223,7 +228,6 @@ body {
     transform: translateY(0.5px);
 }
 
-
 .contenedor__modoJuego {
     display: flex;
     flex-direction: column;
@@ -251,7 +255,7 @@ body {
 }
 
 footer {
-    height: 3.5dvh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -292,7 +296,8 @@ footer a:hover {
     .contenedor__itemDos {
         flex-direction: column;
         height: auto;
-        width: 67dvh;
+        width: auto;
+        padding: 1rem;
     }
 
     .contenedor__itemDos img {
@@ -306,11 +311,11 @@ footer a:hover {
     }
 
     .contenedor__itemDos p {
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
 
     .contenedor__itemUnoHijo img {
-        width: 44dvh;
+        width: auto;
     }
     .contenedor__itemUnoHijo p {
        font-size:2.2rem;
@@ -370,7 +375,7 @@ footer a:hover {
     }
 
     .contenedor__itemUnoHijo img {
-        width: 44dvh;
+        width: auto;
     }
 
     .button3 {
@@ -396,7 +401,7 @@ footer a:hover {
 }
 
 
-@media only screen and (max-width:390px) {
+@media only screen and (max-width:480px) {
 
     .contenedor__img__logoGhostNumber{
         display: none;
@@ -408,11 +413,12 @@ footer a:hover {
     }
 
     .contenedor__itemDos {
-        height: 49dvh;
+        height: 90dvh;
     }
     
     .contenedor__itemDos p {
-        font-size: .8rem;
+        font-size: 1.2rem;
+        margin: 0rem 1rem;
     }
 
     .contenedor__itemUnoHijo p {
